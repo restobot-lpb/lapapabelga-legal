@@ -1,0 +1,439 @@
+{
+  "restaurante": "La Papa Belga",
+  "moneda": "COP",
+  "actualizado": "2026-05-06",
+  "nota_general": "Todos los precios están en pesos colombianos (COP). Las alitas SIEMPRE incluyen papas belgas (no se venden solas).",
+
+  "categorias": {
+
+    "alitas_con_papas_belgas": {
+      "titulo": "Alitas con Papas Belgas",
+      "descripcion": "En La Papa Belga, nuestras alitas no vienen solas. Todas las alitas incluyen papas belgas para un plato completo y generoso.",
+      "platos": [
+        { "nombre": "Alas x7 + Papas Belgas",  "precio": 27300, "descripcion": "Ideal para una persona" },
+        { "nombre": "Alas x10 + Papas Belgas", "precio": 34400, "descripcion": "Para compartir ligero" },
+        { "nombre": "Alas x15 + Papas Belgas", "precio": 47700, "descripcion": "La opción favorita, perfecta para compartir", "destacado": true },
+        { "nombre": "Alas x22 + Papas Belgas", "precio": 66800, "descripcion": "Para grupos y buen apetito" },
+        { "nombre": "Alas x30 + Papas Belgas", "precio": 90900, "descripcion": "La más grande de la casa, ideal para eventos y amigos" }
+      ],
+      "combos": [
+        {
+          "nombre": "Super Combo Alitas Belga",
+          "precio": 129900,
+          "descripcion": "Alas x40 + Papas Belgas XL + Salsa Cheddar + 2 Gaseosas grandes + 3 salsas a elección. Solo para valientes, ideal para grupos grandes."
+        }
+      ]
+    },
+
+    "papas_fritas_de_belgica": {
+      "titulo": "Papas Fritas de Bélgica",
+      "descripcion": "Las verdaderas papas belgas: crujientes por fuera, suaves por dentro.",
+      "platos": [
+        {
+          "nombre": "Royal Belga",
+          "subtitulo": "La original",
+          "precio": 31800,
+          "precio_2_personas": 57900,
+          "descripcion": "Papas belgas con queso cheddar, tocineta crocante, hamburguesa y pollo apanado de la casa"
+        },
+        {
+          "nombre": "Royal Brujas",
+          "subtitulo": "Intensa",
+          "precio": 30500,
+          "precio_2_personas": 55700,
+          "descripcion": "Papas belgas con queso cheddar, tocineta crocante y hamburguesa jugosa"
+        },
+        {
+          "nombre": "Royal Mons",
+          "subtitulo": "Urbana",
+          "precio": 22200,
+          "precio_2_personas": 37900,
+          "descripcion": "Papas belgas con queso cheddar y tocineta"
+        },
+        {
+          "nombre": "Royal Bruselas",
+          "subtitulo": "Clásica",
+          "precio": 26700,
+          "precio_2_personas": 49000,
+          "descripcion": "Papas belgas con queso cheddar, tocineta crocante y pollo apanado de la casa"
+        },
+        {
+          "nombre": "Big Belga",
+          "subtitulo": "La bestia — la más cargada de la casa",
+          "precio": 33900,
+          "precio_2_personas": 61200,
+          "descripcion": "Papas belgas con queso cheddar, tocineta crocante, hamburguesa, pollo apanado de la casa y salchicha",
+          "destacado": true
+        }
+      ]
+    },
+
+    "platos_fuertes": {
+      "titulo": "Platos Fuertes",
+      "platos": [
+        {
+          "nombre": "Medallion Sauce",
+          "subtitulo": "El más pedido",
+          "precio": 55800,
+          "descripcion": "Medallones de res en salsa cremosa de champiñones, puré y ensalada de la casa",
+          "destacado": true
+        },
+        {
+          "nombre": "Carbonade Flamenco",
+          "subtitulo": "Típico belga",
+          "precio": 53700,
+          "descripcion": "Carne de res cocinada 6 horas con cerveza negra, papas fritas belgas y ensalada de la casa",
+          "tipico_belga": true
+        },
+        {
+          "nombre": "Entrecote (Chata-Lomo Ancho)",
+          "precio": 59600,
+          "descripcion": "Carne de res madurada con papas fritas belgas y ensalada de la casa (250 gr)",
+          "opciones": [
+            { "nombre": "500 gr de carne", "precio": 81300 }
+          ]
+        },
+        {
+          "nombre": "Suprema Crujiente Belga",
+          "precio": 49900,
+          "descripcion": "Suprema de pollo apanado con salsa de champiñones, puré y ensalada de la casa"
+        }
+      ]
+    },
+
+    "waffles_burger": {
+      "titulo": "Waffles Burger",
+      "descripcion": "La combinación auténtica entre gaufres belgas y hamburguesas artesanales.",
+      "subcategorias": {
+        "hamburguesas_de_carne": [
+          {
+            "nombre": "Brujas",
+            "subtitulo": "Cargada de sabor",
+            "precio": 30900,
+            "descripcion": "Carne 120g, tocineta, cebolla caramelizada al whisky, salsa Bicky, lechuga y tomate",
+            "extras": [{ "nombre": "Doble carne", "precio": 10900 }],
+            "destacado": true
+          },
+          {
+            "nombre": "Bruselas",
+            "subtitulo": "La clásica belga",
+            "precio": 26900,
+            "descripcion": "Carne 120g, salsa Bicky, tomate, lechuga y cebolla",
+            "extras": [{ "nombre": "Doble carne", "precio": 10900 }]
+          },
+          {
+            "nombre": "Gante",
+            "subtitulo": "Sabor urbano belga",
+            "precio": 33900,
+            "descripcion": "Carne 120g, salsa champiñones, salsa ajo, tomate, lechuga y cebolla",
+            "extras": [{ "nombre": "Doble carne", "precio": 10900 }]
+          }
+        ],
+        "hamburguesas_de_pollo_crispy": [
+          {
+            "nombre": "Tournai",
+            "subtitulo": "Crujiente y auténtica",
+            "precio": 28900,
+            "descripcion": "Pollo apanado 120g, cebolla caramelizada al whisky, salsa Bicky, tomate, lechuga",
+            "extras": [{ "nombre": "Doble pollo", "precio": 9900 }]
+          },
+          {
+            "nombre": "Hasselt",
+            "subtitulo": "Suave y refinada",
+            "precio": 31900,
+            "descripcion": "Pollo apanado 120g, salsa champiñones, salsa ajo, tomate, lechuga y cebolla",
+            "extras": [{ "nombre": "Doble pollo", "precio": 10900 }]
+          },
+          {
+            "nombre": "Mons",
+            "subtitulo": "Ligera y equilibrada",
+            "precio": 24900,
+            "descripcion": "Pollo apanado 120g, salsa ajo, tomate, lechuga y cebolla",
+            "extras": [{ "nombre": "Doble pollo", "precio": 9900 }]
+          }
+        ],
+        "hamburguesa_mixta": [
+          {
+            "nombre": "Amberes",
+            "subtitulo": "Doble proteína, máximo sabor",
+            "precio": 39900,
+            "descripcion": "Pollo apanado 120g, carne 120g, tocineta, cebolla caramelizada al whisky, salsa Bicky, tomate, lechuga y cebolla"
+          }
+        ],
+        "xxl": [
+          {
+            "nombre": "Mega Belga XXL",
+            "subtitulo": "Solo para valientes",
+            "precio": 54900,
+            "descripcion": "Pollo apanado 240g, carne 240g, cebolla caramelizada al whisky, salsa Bicky, tomate, lechuga y cebolla"
+          }
+        ]
+      },
+      "combo_disponible": {
+        "nombre": "Hazlo Combo",
+        "precio_extra": 8900,
+        "descripcion": "Papas belgas + gaseosa. La opción favorita de nuestros clientes."
+      }
+    },
+
+    "metralleta": {
+      "titulo": "Metralleta",
+      "descripcion": "El clásico street-food belga. Pan baguette crujiente, salsa especial de la casa, ensalada fresca y tomate.",
+      "platos": [
+        { "nombre": "Metralleta Burger", "precio": 24700, "descripcion": "Carne de res artesanal" },
+        { "nombre": "Metralleta Steak",  "precio": 27300, "descripcion": "Carne de res madurada" },
+        { "nombre": "Metralleta Pollo",  "precio": 24400, "descripcion": "Pollo apanado de la casa" }
+      ]
+    },
+
+    "crepes_saladas": {
+      "titulo": "Crêpes Saladas",
+      "platos": [
+        {
+          "nombre": "La Carbonade Flamenco",
+          "subtitulo": "Tradición y sabor",
+          "precio": 43800,
+          "descripcion": "Crêpes con carbonade flamenco y ensalada"
+        },
+        {
+          "nombre": "Crêpes Bruselas Pollo Cremoso",
+          "precio": 48200,
+          "descripcion": "Crêpes con pollo apanado, salsa de champiñones y ensalada"
+        },
+        {
+          "nombre": "Crêpes Jardín de Bélgica",
+          "subtitulo": "Vegetariana",
+          "precio": 39200,
+          "descripcion": "Crêpes con verdura en salsa teriyaki y ensalada",
+          "vegetariano": true
+        }
+      ]
+    },
+
+    "menu_infantil": {
+      "titulo": "Menú Infantil",
+      "incluye": "Papas o puré + gaseosa o jugo + sorpresa para los niños",
+      "platos": [
+        { "nombre": "Pinchito Belga",   "precio": 24900, "descripcion": "Pollo apanado" },
+        { "nombre": "Pinchito Mix",     "precio": 25900, "descripcion": "Pollo y salchicha" },
+        { "nombre": "Mini Burger Belga","precio": 26900, "descripcion": "Pollo o carne" }
+      ]
+    },
+
+    "waffles_dulces": {
+      "titulo": "Waffles Dulces",
+      "descripcion": "El placer dulce de Bélgica.",
+      "platos": [
+        {
+          "nombre": "Manneken Pis",
+          "subtitulo": "El más equilibrado (el más vendido)",
+          "precio": 16900,
+          "descripcion": "Waffle belga con chocolate, banano, fresa y chantilly",
+          "destacado": true
+        },
+        {
+          "nombre": "Bruselas",
+          "subtitulo": "Entre dulce y ácidez",
+          "precio": 16200,
+          "descripcion": "Waffle belga con chocolate, banano, fresa y chantilly"
+        },
+        {
+          "nombre": "Brujas",
+          "subtitulo": "Entre dulce y dulce",
+          "precio": 17500,
+          "descripcion": "Waffle belga con arequipe, maní y chantilly"
+        },
+        {
+          "nombre": "Atomium",
+          "subtitulo": "El poderoso",
+          "precio": 18800,
+          "descripcion": "Waffle belga con nutella, banano, maní y chantilly"
+        }
+      ]
+    },
+
+    "helados": {
+      "titulo": "Helados",
+      "descripcion": "El final dulce perfecto.",
+      "platos": [
+        {
+          "nombre": "Copa Belga",
+          "precio": 18400,
+          "descripcion": "Helado con vainilla, chocolate, banano, fresa y chantilly"
+        },
+        {
+          "nombre": "Copa de Helado",
+          "precio": 18200,
+          "descripcion": "Helado de vainilla, arequipe, mango, fresa y chantilly"
+        },
+        {
+          "nombre": "Banana Split Belga",
+          "subtitulo": "El favorito",
+          "precio": 24500,
+          "descripcion": "Helado de vainilla, chocolate, banano flameado con whisky y chantilly",
+          "destacado": true
+        },
+        {
+          "nombre": "Dama Blanca",
+          "subtitulo": "La clásica",
+          "precio": 22100,
+          "descripcion": "2 bolas vainilla, chocolate caliente, almendra y chantilly"
+        }
+      ]
+    },
+
+    "crepes_dulces": {
+      "titulo": "Crêpes Dulces",
+      "descripcion": "Suaves, dulces y llenas de sabor.",
+      "platos": [
+        {
+          "nombre": "Crêpe Belga Clásica",
+          "precio": 15700,
+          "descripcion": "Crêpe con chocolate caliente y chantilly"
+        },
+        {
+          "nombre": "Crêpe de la Casa",
+          "precio": 17700,
+          "descripcion": "Crêpe con arequipe, banano y chantilly"
+        }
+      ],
+      "mejora_tu_postre": [
+        { "nombre": "Salsas (chocolate / arequipe / nutella)", "precio_extra": 1300 },
+        { "nombre": "Frutas (banano / fresa / mango)", "precio_extra": 900 },
+        { "nombre": "Frutas (arándanos)", "precio_extra": 1300 },
+        { "nombre": "Bola extra de helado", "precio_extra": 5600 }
+      ]
+    },
+
+    "cervezas_belgas": {
+      "titulo": "Cervezas Belgas",
+      "descripcion": "El verdadero sabor de Bélgica.",
+      "platos": [
+        {
+          "nombre": "Duvel",
+          "subtitulo": "La clásica belga",
+          "precio": 29500,
+          "descripcion": "Cerveza belga fuerte y dorada — 8.5%",
+          "destacado": true
+        },
+        {
+          "nombre": "Chouffe",
+          "precio": 31800,
+          "descripcion": "Rubia belga suave y aromática — 8%"
+        },
+        {
+          "nombre": "Kriek Liefmans",
+          "precio": 25600,
+          "descripcion": "Cerveza belga de cereza, deliciosa y refrescante — 3.4%"
+        },
+        {
+          "nombre": "Vedett Extra White",
+          "precio": 25600,
+          "descripcion": "Blanca belga, fresca y ligera — 4.7%"
+        },
+        {
+          "nombre": "Maredsous Triple-Ámbar",
+          "precio": 27700,
+          "descripcion": "Cerveza belga intensa y equilibrada — 10%"
+        }
+      ]
+    },
+
+    "cervezas_nacionales": {
+      "titulo": "Cervezas Nacionales",
+      "platos": [
+        { "nombre": "Cerveza Nacional",   "precio": 9500 },
+        { "nombre": "Cerveza Importada",  "precio": 14800 },
+        { "nombre": "Michelada (extra)",  "precio_extra": 2900, "descripcion": "Se agrega a cualquier cerveza" }
+      ]
+    },
+
+    "vinos": {
+      "titulo": "Vinos",
+      "platos": [
+        { "nombre": "Copa de Vino",    "precio": 14000 },
+        { "nombre": "Tinto de Verano", "precio": 18900 }
+      ]
+    },
+
+    "jugos_fusion": {
+      "titulo": "Jugos Fusión",
+      "platos": [
+        { "nombre": "Ultra Fresh",  "precio": 8900, "descripcion": "Sandía, fresa, limón", "destacado": true },
+        { "nombre": "Yellow",       "precio": 8900, "descripcion": "Uchuva, maracuyá, mango" },
+        { "nombre": "Frutos Rojos", "precio": 9900, "descripcion": "Mora, blueberry, fresa" }
+      ],
+      "extras": [
+        { "nombre": "Granizado",  "precio_extra": 1200 },
+        { "nombre": "Sodificado", "precio_extra": 2400 }
+      ]
+    },
+
+    "limonadas": {
+      "titulo": "Limonadas",
+      "platos": [
+        { "nombre": "Limonada de Coco",     "precio": 9600 },
+        { "nombre": "Limonada Cerezada",    "precio": 8600 },
+        { "nombre": "Limonada Natural",     "precio": 7600 }
+      ]
+    },
+
+    "bebidas_simples": {
+      "titulo": "Bebidas",
+      "platos": [
+        { "nombre": "Soda",          "precio": 7500 },
+        { "nombre": "Agua Manantial","precio": 6100 },
+        { "nombre": "Gaseosa",       "precio": 7500 }
+      ]
+    },
+
+    "cafes_calientes": {
+      "titulo": "Cafés Calientes",
+      "platos": [
+        { "nombre": "Tinto",         "precio": 4200 },
+        { "nombre": "Americano",     "precio": 5200 },
+        { "nombre": "Café Latte",    "precio": 5200 },
+        { "nombre": "Capuccino",     "precio": 5700 },
+        { "nombre": "Café Campesino","precio": 5700, "descripcion": "Tinto con anís, panela y canela" }
+      ]
+    },
+
+    "cafes_especiales_con_alcohol": {
+      "titulo": "Cafés Especiales con Alcohol",
+      "platos": [
+        { "nombre": "Irish Coffee",     "precio": 17300 },
+        { "nombre": "Café Baileys",     "precio": 17300 },
+        { "nombre": "Café con Whisky",  "precio": 18000 }
+      ]
+    },
+
+    "cafes_frios": {
+      "titulo": "Cafés Fríos",
+      "platos": [
+        { "nombre": "Café Granizado",        "precio": 8200 },
+        { "nombre": "Frapuccino Chocolate",  "precio": 8600 },
+        { "nombre": "Frapuccino Arequipe",   "precio": 8600 },
+        { "nombre": "Affogato",              "precio": 6800, "descripcion": "Café con bola de helado de vainilla" }
+      ]
+    },
+
+    "malteadas": {
+      "titulo": "Malteadas",
+      "tamano": "16 oz",
+      "precio_base": 23700,
+      "sabores_clasicos": ["Vainilla", "Oreo", "Chocolate", "Banano", "Fresa"],
+      "suplementos": [
+        { "nombre": "Frutos rojos", "precio_extra": 2000 },
+        { "nombre": "Café",         "precio_extra": 1000 },
+        { "nombre": "Arequipe",     "precio_extra": 1500 },
+        { "nombre": "M&M's",        "precio_extra": 2000 },
+        { "nombre": "Nutella",      "precio_extra": 2000 }
+      ],
+      "con_alcohol_base_vainilla": [
+        { "nombre": "Shot Baileys", "precio_extra": 3500 },
+        { "nombre": "Shot Whisky",  "precio_extra": 4000 }
+      ]
+    }
+
+  }
+}
